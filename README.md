@@ -2,7 +2,7 @@
 This file contents data  of the Paraguayan EPH (Encuesta Permanente de Hogares) from 1998 to 2020. 
 The EPH is an annual household survey. The National Institute of Statistics (INE, in Spanish) from Paraguay makes the data public on their website. 
 But, data from each year is on a different file. 
-For instance, in order to make a cross-period analysis between 2005 and 2009, one will have to download the information for each year. 
+For instance, in order to make a cross-period analysis between 2005 and 2009, one will have to download the information for each year. To the extend of our knowledge, neither government institutions, private sector companies, and researchers have worked on a similar dataset nor, at least, made it publicly available.
 
 Hence, analyzing the data from survey to survey becomes a tedious task. To overcome this, I grouped the data from the first survey to the 2020. 
 The variables I included in this dataset are age, sex, income, among others. This file is useful to analyze the evolution over the years of income distribution, poverty, middle class, etc. 
