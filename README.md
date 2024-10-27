@@ -1,22 +1,10 @@
 # ephdata
-This file contents data  of the Paraguayan EPH (Encuesta Permanente de Hogares) from 1998 to 2020. 
-The EPH is an annual household survey. The National Institute of Statistics (INE, in Spanish) from Paraguay makes the data public on their website. 
-But, data from each year is on a different file. 
-For instance, in order to make a cross-period analysis between 2005 and 2009, one will have to download the information for each year. To the extend of our knowledge, neither government institutions, private sector companies, and researchers have worked on a similar dataset nor, at least, made it publicly available.
 
-Hence, analyzing the data from survey to survey becomes a tedious task. To overcome this, I grouped the data from the first survey to the 2020. 
-The variables I included in this dataset are age, sex, income, among others. This file is useful to analyze the evolution over the years of income distribution, poverty, middle class, etc. 
-Besides, it is particular helpful to extend the analysis to more variables - for example, I plan to add new information about education, health, and employment. 
-Thus, analyzing these variables using just one data set is more efficient for the researcher.
+This file contains data from the Paraguayan Encuesta Permanente de Hogares (EPH) spanning from 1998 to 2020. The EPH is an annual household survey conducted by Paraguay’s National Institute of Statistics (Instituto Nacional de Estadística, INE). While INE makes individual annual datasets available on its website, each year’s data is stored in a separate file. Therefore, conducting a cross-period analysis, such as from 2005 to 2009, requires downloading separate files for each year. To the best of our knowledge, no governmental or private institutions, nor any researchers, have consolidated this data into a unified, publicly accessible dataset.
 
-The append of this dataset was a challenge task. In particular, the names of variables change from survey to survey. For instance, the name of the variable identifying "Others sources of income" in 2010 was e01jde - in 2011 it was e01lde.
-Besides, from one to another survey there are new variables in the data set.
-The content of the labels also changes and is not the same in all the surveys.
-As a consequence, it is quite easy and difficult to notice if the resulting data set is wrong.
-Hence, manual tasks and quality check is crucial.
-If any inconsistency is suspected, please send an email.
+This dataset addresses that gap by grouping data from the first survey through 2020, including socioeconomic and demographic variables. It is useful for examining trends over time in areas such as income distribution, poverty levels, and middle-class growth. Additionally, the dataset is adaptable, allowing for the inclusion of new variables.
 
-The Stata do file is available over request. 
-For queries, comments, and requests: mpedrozo@colmena.com.py - jcpane@colmena.com.py.
-This dataset is property <!-- is this the right definition. Like, property is ok to say? --> 
-of Colmena. If you use it, please cite.
+The merging process was challenging due to variable name changes across surveys (e.g., the variable for “Other sources of income” was labeled e01jde in 2010 but e01lde in 2011). New variables are introduced from year to year, and label definitions also vary, adding complexity to the process.
+
+The Stata do-file is available upon request. For queries, comments, or further assistance, please contact us at moises.pedrozo@uni-bonn.de - jcpane@colmena.com.py.
+<!-- This dataset is property <!-- is this the right definition. Like, property is ok to say? of Colmena. If you use it, please cite. -->
